@@ -2,6 +2,11 @@ body {
   margin: 0;
   padding: 0;
   background-color: #0b0b0b;
+  font-family: 'Open Sans', sans-serif;
+}
+.becreative {
+  border-top: 3px solid #B43273;
+  border-bottom: 3px solid #B43273; 
 }
 
 nav {
@@ -17,8 +22,7 @@ li {
 
 li a {
   text-decoration: none;
-  color: aliceblue;
-  font-family: Source Sans Pro;
+  color: rgb(255, 255, 255);
   font-weight: lighter;
   font-size: 28px;
   padding: 0 15px;
@@ -30,15 +34,11 @@ li a {
   width: 0;
   height: 3px;
   background-color: #B43273;
-  transition: width 0.3s;
+  transition: width 0.5s;
 }
 
 .link:hover::after {
   width: 100%;
-  transition: width 0.3s;
+  transition: width 0.5s;
 }
 
-.becreative {
-  border-top: 3px solid #B43273;
-  border-bottom: 3px solid #B43273;
-}
