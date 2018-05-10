@@ -26,8 +26,8 @@ li a {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-weight: lighter;
-  font-size: 28px;
-  padding: 0 15px;
+  font-size: 25px;
+  padding: 0 5px;
 }
 
 .link::after {
